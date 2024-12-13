@@ -24,12 +24,10 @@ const Menu = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: '#000' }}>
       <Toolbar>
-        {/* App Title */}
         <Typography variant="h3" sx={{ flexGrow: 1 }}>
           HackerNews
         </Typography>
 
-        {/* Navigation Buttons */}
         {menuItems.map(({ label, path }) => (
           <Button
             key={path}
